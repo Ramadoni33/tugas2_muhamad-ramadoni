@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Page-1" id="qJzoyfeUjVmAaT7MVW6D">
+    <mxGraphModel dx="658" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-1" value="flowmap" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="230.00000000000045" y="47" width="330" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-2" value="pembeli" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="MDpZfFfzFemlYGpZkvgL-1">
+          <mxGeometry y="20" width="160" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-5" value="mulai" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="MDpZfFfzFemlYGpZkvgL-2">
+          <mxGeometry x="27" y="25" width="82" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-19" value="pembeli menerima pesanan dan langsung membayar makanan" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="MDpZfFfzFemlYGpZkvgL-2">
+          <mxGeometry x="16.999999999999545" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" edge="1" parent="MDpZfFfzFemlYGpZkvgL-2" source="MDpZfFfzFemlYGpZkvgL-20" target="MDpZfFfzFemlYGpZkvgL-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-20" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="MDpZfFfzFemlYGpZkvgL-2">
+          <mxGeometry x="10.25" y="90" width="115.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-7" value="&lt;p class=&quot;MsoNormal&quot;&gt;pembeli datang melihat lihat menu makanan&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;strokeWidth=1;labelBackgroundColor=none;fontColor=#1A1A1A;" vertex="1" parent="MDpZfFfzFemlYGpZkvgL-2">
+          <mxGeometry x="25.999999999999545" y="79" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.467;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" edge="1" parent="MDpZfFfzFemlYGpZkvgL-2" source="MDpZfFfzFemlYGpZkvgL-5" target="MDpZfFfzFemlYGpZkvgL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" edge="1" parent="MDpZfFfzFemlYGpZkvgL-2" source="MDpZfFfzFemlYGpZkvgL-7" target="MDpZfFfzFemlYGpZkvgL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" edge="1" parent="MDpZfFfzFemlYGpZkvgL-2" source="MDpZfFfzFemlYGpZkvgL-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73.99999999999955" y="613" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-24" value="pembeli menirima struck dan uang kembalian" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="MDpZfFfzFemlYGpZkvgL-2">
+          <mxGeometry x="14.499999999999545" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-25" value="selesai" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="MDpZfFfzFemlYGpZkvgL-2">
+          <mxGeometry x="36.75" y="620" width="72.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-27" value="pembeli mulai memesan menu mkanan" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="MDpZfFfzFemlYGpZkvgL-2">
+          <mxGeometry x="8" y="191" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-3" value="penjual" style="swimlane;startSize=20;html=1;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="MDpZfFfzFemlYGpZkvgL-1">
+          <mxGeometry x="160" y="20" width="170" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-14" value="penjual langsung menyerahkan makanan yang sudah siap" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="MDpZfFfzFemlYGpZkvgL-3">
+          <mxGeometry x="19.999999999999545" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-15" value="penjual langsung menyiapkan menu makanan untuk membeli" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=0;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="MDpZfFfzFemlYGpZkvgL-3">
+          <mxGeometry x="13" y="240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.333;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" edge="1" parent="MDpZfFfzFemlYGpZkvgL-3" source="MDpZfFfzFemlYGpZkvgL-15" target="MDpZfFfzFemlYGpZkvgL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-23" value="penjual menerima uang dan siap memberi&amp;nbsp;&lt;div&gt;struck dan uang kembalian&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;labelBackgroundColor=none;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="MDpZfFfzFemlYGpZkvgL-3">
+          <mxGeometry x="12.999999999999545" y="484" width="140" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" edge="1" parent="MDpZfFfzFemlYGpZkvgL-1" source="MDpZfFfzFemlYGpZkvgL-27" target="MDpZfFfzFemlYGpZkvgL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" edge="1" parent="MDpZfFfzFemlYGpZkvgL-1" source="MDpZfFfzFemlYGpZkvgL-14" target="MDpZfFfzFemlYGpZkvgL-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.537;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.499;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" edge="1" parent="MDpZfFfzFemlYGpZkvgL-1" source="MDpZfFfzFemlYGpZkvgL-19" target="MDpZfFfzFemlYGpZkvgL-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79.99999999999955" y="463" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="79.99999999999955" y="456" />
+              <mxPoint x="79.99999999999955" y="473" />
+              <mxPoint x="248.99999999999955" y="473" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDpZfFfzFemlYGpZkvgL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#182E3E;fontColor=default;" edge="1" parent="MDpZfFfzFemlYGpZkvgL-1" source="MDpZfFfzFemlYGpZkvgL-23" target="MDpZfFfzFemlYGpZkvgL-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
